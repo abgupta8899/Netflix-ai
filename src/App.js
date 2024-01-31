@@ -1,12 +1,14 @@
 
 import './App.css';
+import  Body from './Components/Body'
 
 function App() {
   return (
-    <div className="App">
-     hello
+    <div>
+      <Body/>
     </div>
   );
 }
+
 
 export default App;

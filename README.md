@@ -1,6 +1,7 @@
 # Netflix AI
  - Create React App
  - Configured TailwindCSS
+ - Header
 
 
  # Features 
