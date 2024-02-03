@@ -1,8 +1,14 @@
 # Netflix AI
  - Create React App
  - Configured TailwindCSS
+ -App Routing
  - Header
  -SignIn & SignUp 
+ -Form Validation 
+ -useRef Hook
+ -Firebase Setup
+ -Deploying to my app to production
+ -create signUp user account
 
 
  # Features 
