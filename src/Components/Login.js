@@ -3,7 +3,6 @@ import { checkValidDataEmail, checkValidDataPassword } from '../Utils/validate';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from '../Utils/firebase';
 
-import { useNavigate } from 'react-router-dom';
 import { BG_URL } from '../Utils/constants'
 import Header from './Header'
 
@@ -11,7 +10,7 @@ function Login() {
   const [isSignIn, setIsSignIn] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
   const [errorMessage1, setErrorMessage1] = useState(null);
-  const navigate = useNavigate();
+
 
 
 
@@ -50,7 +49,7 @@ function Login() {
             // ...
           });
 
-          navigate('/browser');
+
           console.log(user);
 
         })
@@ -66,7 +65,7 @@ function Login() {
           // Signed in 
           const user = userCredential.user;
           // ...
-          navigate('/browser');
+
           console.log(user)
 
         })

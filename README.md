@@ -11,6 +11,9 @@
  - create signUp user account
  - Created Redux Store with userSlice
  -  Implemented Sign out
+ -Bug Fix: if the user is not logged in Redirect /browse to Login Page  and vice-versa
+ -Unsubscribe to the onAuthStateChanged callback 
+
 
 
  # Features 
