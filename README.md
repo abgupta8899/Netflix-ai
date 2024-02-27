@@ -21,6 +21,8 @@
  -Fetch Data for Trailer Video
  -Update store with Trailer video Data
  -Embedded the Youtube video and make it auto play and mute 
+ -Create Hook for popular movie list
+ -
  
 
  # Features 
