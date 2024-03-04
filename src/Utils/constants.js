@@ -23,3 +23,8 @@ export const API_OPTIONS = {
         Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MmU2YTg4NmEyZDg3ZmMzOWRmNDAwYzkyMjUzNDVkNiIsInN1YiI6IjY1MTNjYjcwY2FkYjZiMDJiZjAwNThhYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.udizRv0-72Eykou-2xq8zJWXaf9riob2gH7ehEx0K94'
     }
 };
+export const SUPPORTED_LANGUAGES = [
+    { identifier: "en", name: "English" },
+    { identifier: "hindi", name: "Hindi" },
+    { identifier: "spanish", name: "Spanish" },
+];

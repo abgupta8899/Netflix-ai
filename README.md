@@ -22,7 +22,9 @@
  -Update store with Trailer video Data
  -Embedded the Youtube video and make it auto play and mute 
  -Create Hook for popular movie list
- -
+ -Gpt Search Page
+ -Gpt Search Bar
+ -Multi-Language feature in our App
  
 
  # Features 
