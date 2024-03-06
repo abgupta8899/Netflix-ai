@@ -14,17 +14,20 @@ export const BG_URL =
 
 export const userIcon = "https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
 
-
-
 export const API_OPTIONS = {
-    method: 'GET',
+    method: "GET",
     headers: {
-        accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MmU2YTg4NmEyZDg3ZmMzOWRmNDAwYzkyMjUzNDVkNiIsInN1YiI6IjY1MTNjYjcwY2FkYjZiMDJiZjAwNThhYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.udizRv0-72Eykou-2xq8zJWXaf9riob2gH7ehEx0K94'
-    }
+        accept: "application/json",
+        Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
+    },
 };
+
+
 export const SUPPORTED_LANGUAGES = [
     { identifier: "en", name: "English" },
     { identifier: "hindi", name: "Hindi" },
     { identifier: "spanish", name: "Spanish" },
 ];
+
+
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;

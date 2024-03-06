@@ -25,6 +25,11 @@
  -Gpt Search Page
  -Gpt Search Bar
  -Multi-Language feature in our App
+ -create openAi key and using key  in our project
+ -gpt api call 
+ -Implementation of Translation API
+ -Integrating OpenAI into our Project
+ 
  
 
  # Features 
