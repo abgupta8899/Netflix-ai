@@ -11,24 +11,24 @@
  - create signUp user account
  - Created Redux Store with userSlice
  -  Implemented Sign out
- -Bug Fix: if the user is not logged in Redirect /browse to Login Page  and vice-versa
- -Unsubscribe to the onAuthStateChanged callback 
- -Register TMBD API & create an app & get access token
- -get Data from TMBD now playing movies List API
- -Custom Hook for Now Playing Movies
- -create movieSlice
- -Planning for MainContainer & Secondary container
- -Fetch Data for Trailer Video
- -Update store with Trailer video Data
- -Embedded the Youtube video and make it auto play and mute 
- -Create Hook for popular movie list
- -Gpt Search Page
- -Gpt Search Bar
- -Multi-Language feature in our App
- -create openAi key and using key  in our project
- -gpt api call 
- -Implementation of Translation API
- -Integrating OpenAI into our Project
+ -  Bug Fix: if the user is not logged in Redirect /browse to Login Page  and vice-versa
+ - Unsubscribe to the onAuthStateChanged callback 
+ - Register TMBD API & create an app & get access token
+ - get Data from TMBD now playing movies List API
+ - Custom Hook for Now Playing Movies
+ - create movieSlice
+ - Planning for MainContainer & Secondary container
+ - Fetch Data for Trailer Video
+ - Update store with Trailer video Data
+ - Embedded the Youtube video and make it auto play and mute 
+ - Create Hook for popular movie list
+ - Gpt Search Page
+ - Gpt Search Bar
+ - Multi-Language feature in our App
+ - create openAi key and using key  in our project
+ - gpt api call 
+ - Implementation of Translation API
+ - Integrating OpenAI into our Project
  
  
 
